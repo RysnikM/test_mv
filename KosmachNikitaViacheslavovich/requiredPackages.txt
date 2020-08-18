@@ -1,0 +1,8 @@
+
+pip install matplotlib
+pip install numpy
+pip install SciPy
+pip install opencv-python-headless
+pip install opencv-contrib-python
+
+https://pypi.org/project/opencv-python/
