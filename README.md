@@ -27,3 +27,25 @@ https://www.highcharts.com/demo/stock/line-markers
 ## ВНИМАНИЕ !!!!!
 данное задание является тестовым и не рассматривается как ТЗ.
 В случае, если вам недостаточно данных можете игнорировать их получение и подставлять статические.
+
+---
+Доступные запросы:
+
+    'api/error_net/', данные по сети
+    'api/current_messages/',  сообщения
+
+    'api/top_stop_line/<int:id>/<int:start>/<int:end>/<int:smena>', ТОП 5 причин останоыки линии
+    'api/time_status/<int:id>/<int:start>/<int:end>/<int:smena>',  времееные данные
+    'api/basic_data/<int:id>/<int:start>/<int:end>/<int:smena>', данные по праметра OEE
+    'api/data_a/<int:id>/<int:start>/<int:end>/<int:smena>', данные по праметра A
+    'api/data_p/<int:id>/<int:start>/<int:end>/<int:smena>', данные по праметра P
+    'api/data_q/<int:id>/<int:start>/<int:end>/<int:smena>', данные по праметра Q
+    'api/table_oee/<int:id>/<int:start>/<int:end>/<int:smena>' - таблица данных ОЕЕ (A, P,Q,OEE)
+
+ГДЕ
+id - идентификатор линии (любое инт чисило)
+start - начало периода UNIX
+end - конец перилода UNIX
+smena - 1 или 0 (если 1 выводи данные по текущей смене игнорируя временные интервалы, если 0 то выводит данные по временным интервалам)
+
+addres: http://185.6.25.155/
