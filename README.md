@@ -1,5 +1,8 @@
-Сверстайте страницу по следующему шаблону:
-https://www.figma.com/file/vX45ly0T2aeZQOdPU4yo34/OEE_details?node-id=1%3A9
-Сверстать нужно на Vue.js. 
+## Задание 1
+Реализуйте мобильное приложение:  
+1. Design: https://www.figma.com/file/CerzeZUKjWEv1JRxE9VOsE/Box-versian-of-Fandock?node-id=351%3A1899  (вкладка mobile)
 
+Предлагаемые этапы:
+1. Разработка прототипа приложения;
+2. Добавить REST для получения данных (документация по API предоставляется отдельно);
 
