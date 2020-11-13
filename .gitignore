@@ -2,3 +2,5 @@
 /KosmachNikitaViacheslavovich/.settings/
 /KosmachNikitaViacheslavovich/.settings/
 /KosmachNikitaViacheslavovich/src/__pycache__/
+.vscode/
+.vscode/*
