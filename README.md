@@ -1,5 +1,4 @@
-Сверстайте страницу по следующему шаблону:
-https://www.figma.com/file/vX45ly0T2aeZQOdPU4yo34/OEE_details?node-id=1%3A9
-Сверстать нужно на Vue.js. 
+## Задание 1
+Реализовать backend для следующего дизайна https://www.figma.com/file/CerzeZUKjWEv1JRxE9VOsE/Box-versian-of-Fandock?node-id=351%3A1899  
 
-
+при реализации испольуйте Django, REST, MySQL или PostgreSQL
